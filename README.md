@@ -77,6 +77,8 @@ I'm proud of this code because it required me to combine several concepts I rese
 
 ## Screen Shots
 
+<img src="imgs/screenshot.png">
+
 <!-- Take screen shots using `control` `command` `shift` `4`. The image will be on your clipboard and you can paste it where you like with `command` `v`. If you paste it anywhere within a github text editing window, it will give you a markdown version. -->
 
 ## Conceptualizing the Game

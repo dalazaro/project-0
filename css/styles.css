@@ -33,3 +33,10 @@ div {
 #box201 {
   background-color: blue;
 }
+
+#reset {
+  margin-top: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}

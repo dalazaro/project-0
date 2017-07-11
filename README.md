@@ -1,8 +1,47 @@
-![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
+Programmed by Daryl Jason Lazaro
+WDI 39, San Francisco
 
-# Project 0: The Game
+Included:
+All source files (.html, .css, .js)
+this README
 
-**Read this entire document before writing a line of code.**
+A `readme.md` file** with a short description of the project, a list of which technologies you used for which parts of the app, an explanation of your approach (share some part of the code), and optionally a list of unsolved problems,  screenshots, etc.  See the [example readme](https://github.com/sf-wdi-labs/readme-example).
+
+# Project 0: Drag Race - [Link to Deployed version of the project](https://github.com/sf-wdi-labs/readme-example)
+======
+<img src="https://cloud.githubusercontent.com/assets/7833470/10423298/ea833a68-7079-11e5-84f8-0a925ab96893.png" width="100">
+
+
+*Some quick description of what this repo is about.*
+
+
+
+See the published project at [https://github.com/dalazaro/project-0](https://github.com/dalazaro/project-0)!
+
+## Technologies Used
+
+<li> jQuery </li>
+<li> JavaScript </li>
+<li> HTML </li>
+<li> CSS </li>
+<li> Bootstrap </li>
+
+## Code I'm Proud Of
+
+<!-- ```javascript
+  function allTheCatz(inputCatz) {
+    Catz.create(inputCatz);
+  };
+```
+
+I'm proud of this code because it required me to trace complex data from the client-side all the way back to the database. I also found and used the `.create` method. I hadn't seen it before, but once I figured it out it worked better for me than ____ because ____ .... -->
+
+### Screen Shots
+
+<!-- Take screen shots using `control` `command` `shift` `4`. The image will be on your clipboard and you can paste it where you like with `command` `v`. If you paste it anywhere within a github text editing window, it will give you a markdown version. -->
+
+
+<!-- **Read this entire document before writing a line of code.**
 
 ### Overview
 
@@ -60,7 +99,6 @@ Your app must:
 * **A `readme.md` file** with a short description of the project, a list of which technologies you used for which parts of the app, an explanation of your approach (share some part of the code), and optionally a list of unsolved problems,  screenshots, etc.  See the [example readme](https://github.com/sf-wdi-labs/readme-example).
 * A **link to your hosted working game** in your game's Github repo.
 * A **link to your hosted working game** in the "my work" section of your personal website.
-* A
 
 ---
 
@@ -170,4 +208,4 @@ These are some ideas that could take your game "above and beyond." **Don't focus
     **2** | _Meets expectations, good job!_
     **3** | _Exceeds expectations, wow!_
 
- You will receive a total score that is a composite of these scores. This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones for each category__ above, which can help you identify where to focus your efforts for the next project!
+ You will receive a total score that is a composite of these scores. This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones for each category__ above, which can help you identify where to focus your efforts for the next project! -->

@@ -1,19 +1,23 @@
-Programmed by Daryl Jason Lazaro
-WDI 39, San Francisco
-
-Included:
-All source files (.html, .css, .js)
-this README
-
 <!-- A `readme.md` file** with a short description of the project, a list of which technologies you used for which parts of the app, an explanation of your approach (share some part of the code), and optionally a list of unsolved problems,  screenshots, etc.  See the [example readme](https://github.com/sf-wdi-labs/readme-example). -->
 
 <img src="https://cloud.githubusercontent.com/assets/7833470/10423298/ea833a68-7079-11e5-84f8-0a925ab96893.png" width="100">
 
 # Project 0: Boxcar Drag Race - [https://dalazaro.github.io/project-0/](https://dalazaro.github.io/project-0/)
 
+Programmed by Daryl Jason Lazaro
+
+WDI 39, San Francisco
+
+Included:
+
+All source files (.html, .css, .js)
+
+this README
+
 *This repository contains the working file for my Project 0 game, a boxcar drag race. Gameplay is optimized for Google Chrome on a desktop or laptop computer. The objective of the game is to control one of the two cars, and race your opponent to the finish line!*
 
 View the game at [https://dalazaro.github.io/project-0/](https://dalazaro.github.io/project-0/)!
+
 View the repository at [https://github.com/dalazaro/project-0](https://github.com/dalazaro/project-0).
 
 ## Technologies Used

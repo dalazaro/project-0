@@ -47,28 +47,28 @@ $(document).ready(function() {
       } else if (player1_turn === 9) {
         $("#box103").css("background-color", "#202020");
         $("#box104").css("background-color", "#FF332A");
-      } else if (player1_turn === 12) {
+      } else if (player1_turn === 11) {
         $("#box104").css("background-color", "#202020");
         $("#box105").css("background-color", "#FF332A");
-      } else if (player1_turn === 14) {
+      } else if (player1_turn === 13) {
         $("#box105").css("background-color", "#202020");
         $("#box106").css("background-color", "#FF332A");
-      } else if (player1_turn === 16) {
+      } else if (player1_turn === 15) {
         $("#box106").css("background-color", "#202020");
         $("#box107").css("background-color", "#FF332A");
-      } else if (player1_turn === 18) {
+      } else if (player1_turn === 17) {
         $("#box107").css("background-color", "#202020");
         $("#box108").css("background-color", "#FF332A");
-      } else if (player1_turn === 20) {
+      } else if (player1_turn === 18) {
         $("#box108").css("background-color", "#202020");
         $("#box109").css("background-color", "#FF332A");
-      } else if (player1_turn === 21) {
+      } else if (player1_turn === 19) {
         $("#box109").css("background-color", "#202020");
         $("#box110").css("background-color", "#FF332A");
-      } else if (player1_turn === 22) {
+      } else if (player1_turn === 20) {
         $("#box110").css("background-color", "#202020");
         $("#box111").css("background-color", "#FF332A");
-      } else if (player1_turn === 23) {
+      } else if (player1_turn === 21) {
         $("#box111").css("background-color", "#202020");
         $("#box112").css("background-color", "#FF332A");
         player1_alert();
@@ -99,28 +99,28 @@ $(document).ready(function() {
       } else if (player2_turn === 9) {
         $("#box203").css("background-color", "#202020");
         $("#box204").css("background-color", "#0047BA");
-      } else if (player2_turn === 12) {
+      } else if (player2_turn === 11) {
         $("#box204").css("background-color", "#202020");
         $("#box205").css("background-color", "#0047BA");
-      } else if (player2_turn === 14) {
+      } else if (player2_turn === 13) {
         $("#box205").css("background-color", "#202020");
         $("#box206").css("background-color", "#0047BA");
-      } else if (player2_turn === 16) {
+      } else if (player2_turn === 15) {
         $("#box206").css("background-color", "#202020");
         $("#box207").css("background-color", "#0047BA");
-      } else if (player2_turn === 18) {
+      } else if (player2_turn === 17) {
         $("#box207").css("background-color", "#202020");
         $("#box208").css("background-color", "#0047BA");
-      } else if (player2_turn === 20) {
+      } else if (player2_turn === 18) {
         $("#box208").css("background-color", "#202020");
         $("#box209").css("background-color", "#0047BA");
-      } else if (player2_turn === 21) {
+      } else if (player2_turn === 19) {
         $("#box209").css("background-color", "#202020");
         $("#box210").css("background-color", "#0047BA");
-      } else if (player2_turn === 22) {
+      } else if (player2_turn === 20) {
         $("#box210").css("background-color", "#202020");
         $("#box211").css("background-color", "#0047BA");
-      } else if (player2_turn === 23) {
+      } else if (player2_turn === 21) {
         $("#box211").css("background-color", "#202020");
         $("#box212").css("background-color", "#0047BA");
         player2_alert();
@@ -135,7 +135,7 @@ $(document).ready(function() {
 
     pKeycode = event.keyCode;
 
-  //the page will not reload while a race is in progress
+    //the page will not reload while a race is in progress
     if (qKeycode === 13 && inProgress === false) {
       location.reload()
     };

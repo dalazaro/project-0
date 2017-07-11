@@ -41,11 +41,11 @@ div {
 
 .player1_lane {
   border-top: 4px solid white;
-  border-bottom: 4px solid yellow;
+  border-bottom: 4px solid #FFA22B;
 }
 
 .player2_lane {
-  border-top: 4px solid yellow;
+  border-top: 4px solid #FFA22B;
   border-bottom: 4px solid white;
 }
 
@@ -54,20 +54,20 @@ div {
 }
 
 #box101 {
-  border-right: 4px solid yellow;
+  border-right: 4px solid #FFA22B;
 }
 
 #box201 {
-  border-right: 4px solid yellow;
+  border-right: 4px solid #FFA22B;
 }
 
 #box112 {
-  border-left: 4px dashed yellow;
+  border-left: 4px dashed #FFA22B;
   text-align: center;
 }
 
 #box212 {
-  border-left: 4px dashed yellow;
+  border-left: 4px dashed #FFA22B;
   text-align: center;
 }
 

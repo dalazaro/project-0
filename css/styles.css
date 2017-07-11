@@ -2,6 +2,11 @@
   border: 1px dashed black;
 }*/
 
+body {
+  background-color: #202020;
+  color: white;
+}
+
 h1 {
   text-align: center;
   padding-bottom: 50px;
@@ -9,21 +14,23 @@ h1 {
 
 section {
   height: 120px;
+  background-color: #202020;
+  margin: 5px auto;
 }
 
 div {
-  height: 100px;
-  margin-top: 8px;
+  height: 70px;
+  margin-top: 20px;
 }
 
 .player1_lane {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 4px solid white;
+  border-bottom: 4px solid yellow;
 }
 
 .player2_lane {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 4px solid yellow;
+  border-bottom: 4px solid white;
 }
 
 #player2_text{
@@ -32,21 +39,21 @@ div {
 
 #box101 {
   background-color: red;
-  border-right: 4px solid black;
+  border-right: 4px solid yellow;
 }
 
 #box201 {
   background-color: blue;
-  border-right: 4px solid black;
+  border-right: 4px solid yellow;
 }
 
 #box112 {
-  border-left: 2px dashed black;
+  border-left: 4px dashed yellow;
   text-align: center;
 }
 
 #box212 {
-  border-left: 2px dashed black;
+  border-left: 4px dashed yellow;
   text-align: center;
 }
 
@@ -55,4 +62,5 @@ div {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 700;
+  color: black;
 }

@@ -9,11 +9,12 @@ this README
 
 <img src="https://cloud.githubusercontent.com/assets/7833470/10423298/ea833a68-7079-11e5-84f8-0a925ab96893.png" width="100">
 
-# Project 0: Boxcar Drag Race - [Link to Deployed version of the project](https://github.com/sf-wdi-labs/readme-example)
+# Project 0: Boxcar Drag Race - [https://dalazaro.github.io/project-0/](https://dalazaro.github.io/project-0/)
 ======
 
 *This repository contains the working file for my Project 0 game, a boxcar drag race. Gameplay is optimized for Google Chrome on a desktop or laptop computer. The objective of the game is to control one of the two cars, and race your opponent to the finish line!*
 
+View the game at [https://dalazaro.github.io/project-0/](https://dalazaro.github.io/project-0/)!
 View the repository at [https://github.com/dalazaro/project-0](https://github.com/dalazaro/project-0).
 
 ## Technologies Used

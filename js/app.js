@@ -4,11 +4,11 @@ console.log('sanity check');
 var inProgress = true;
 
 //player1 starts with a red "car" in the first column
-var player1_turn = 1;
+var player1_turn = 0;
 var qKeycode;
 
 //player2 starts with a blue "car" in the first column
-var player2_turn = 1;
+var player2_turn = 0;
 var pKeycode;
 
 //functions to end the race
@@ -32,42 +32,43 @@ $(document).ready(function() {
 
     qKeycode = event.keyCode;
 
-    //every time player1 taps the Q key (keyCode 81) while the game is in progress, the red "car" moves 1 column to the right
+    //the faster player1 taps the Q key (keyCode 81) while the game is in progress, the faster the red "car" will move to the right.
     if (qKeycode === 81 && inProgress) {
 
       player1_turn += 1;
 
-      if (player1_turn === 2) {
+      //to simulate car shifting, the turn count between intervals gets shorter the farther the "car" has traveled
+      if (player1_turn === 3) {
         $("#box101").css("background-color", "#202020");
         $("#box102").css("background-color", "#FF332A");
-      } else if (player1_turn === 3) {
+      } else if (player1_turn === 6) {
         $("#box102").css("background-color", "#202020");
         $("#box103").css("background-color", "#FF332A");
-      } else if (player1_turn === 4) {
+      } else if (player1_turn === 9) {
         $("#box103").css("background-color", "#202020");
         $("#box104").css("background-color", "#FF332A");
-      } else if (player1_turn === 5) {
+      } else if (player1_turn === 12) {
         $("#box104").css("background-color", "#202020");
         $("#box105").css("background-color", "#FF332A");
-      } else if (player1_turn === 6) {
+      } else if (player1_turn === 14) {
         $("#box105").css("background-color", "#202020");
         $("#box106").css("background-color", "#FF332A");
-      } else if (player1_turn === 7) {
+      } else if (player1_turn === 16) {
         $("#box106").css("background-color", "#202020");
         $("#box107").css("background-color", "#FF332A");
-      } else if (player1_turn === 8) {
+      } else if (player1_turn === 18) {
         $("#box107").css("background-color", "#202020");
         $("#box108").css("background-color", "#FF332A");
-      } else if (player1_turn === 9) {
+      } else if (player1_turn === 20) {
         $("#box108").css("background-color", "#202020");
         $("#box109").css("background-color", "#FF332A");
-      } else if (player1_turn === 10) {
+      } else if (player1_turn === 21) {
         $("#box109").css("background-color", "#202020");
         $("#box110").css("background-color", "#FF332A");
-      } else if (player1_turn === 11) {
+      } else if (player1_turn === 22) {
         $("#box110").css("background-color", "#202020");
         $("#box111").css("background-color", "#FF332A");
-      } else if (player1_turn === 12) {
+      } else if (player1_turn === 23) {
         $("#box111").css("background-color", "#202020");
         $("#box112").css("background-color", "#FF332A");
         player1_alert();
@@ -83,42 +84,43 @@ $(document).ready(function() {
 
     pKeycode = event.keyCode;
 
-    //every time player2 taps the P key (keyCode 80) while the game is in progress, the blue "car" moves 1 column to the right
+    //the faster player2 taps the P key (keyCode 80) while the game is in progress, the faster the blue "car" will move to the right.
     if (pKeycode === 80 && inProgress) {
 
       player2_turn += 1;
 
-      if (player2_turn === 2) {
+      //to simulate car shifting, the turn count between intervals gets shorter the farther the "car" has traveled
+      if (player2_turn === 3) {
         $("#box201").css("background-color", "#202020");
         $("#box202").css("background-color", "#0047BA");
-      } else if (player2_turn === 3) {
+      } else if (player2_turn === 6) {
         $("#box202").css("background-color", "#202020");
         $("#box203").css("background-color", "#0047BA");
-      } else if (player2_turn === 4) {
+      } else if (player2_turn === 9) {
         $("#box203").css("background-color", "#202020");
         $("#box204").css("background-color", "#0047BA");
-      } else if (player2_turn === 5) {
+      } else if (player2_turn === 12) {
         $("#box204").css("background-color", "#202020");
         $("#box205").css("background-color", "#0047BA");
-      } else if (player2_turn === 6) {
+      } else if (player2_turn === 14) {
         $("#box205").css("background-color", "#202020");
         $("#box206").css("background-color", "#0047BA");
-      } else if (player2_turn === 7) {
+      } else if (player2_turn === 16) {
         $("#box206").css("background-color", "#202020");
         $("#box207").css("background-color", "#0047BA");
-      } else if (player2_turn === 8) {
+      } else if (player2_turn === 18) {
         $("#box207").css("background-color", "#202020");
         $("#box208").css("background-color", "#0047BA");
-      } else if (player2_turn === 9) {
+      } else if (player2_turn === 20) {
         $("#box208").css("background-color", "#202020");
         $("#box209").css("background-color", "#0047BA");
-      } else if (player2_turn === 10) {
+      } else if (player2_turn === 21) {
         $("#box209").css("background-color", "#202020");
         $("#box210").css("background-color", "#0047BA");
-      } else if (player2_turn === 11) {
+      } else if (player2_turn === 22) {
         $("#box210").css("background-color", "#202020");
         $("#box211").css("background-color", "#0047BA");
-      } else if (player2_turn === 12) {
+      } else if (player2_turn === 23) {
         $("#box211").css("background-color", "#202020");
         $("#box212").css("background-color", "#0047BA");
         player2_alert();

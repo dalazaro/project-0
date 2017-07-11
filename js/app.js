@@ -70,7 +70,7 @@ $(document).ready(function() {
         } else if (player1_turn === 12) {
           $("#box111").css("background-color", "#202020");
           $("#box112").css("background-color", "red");
-          player1_alert(inProgress);
+          player1_alert();
         };
 
       };
@@ -121,7 +121,7 @@ $(document).ready(function() {
         } else if (player2_turn === 12) {
           $("#box211").css("background-color", "#202020");
           $("#box212").css("background-color", "blue");
-          player2_alert(inProgress);
+          player2_alert();
         };
 
       };

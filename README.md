@@ -27,15 +27,60 @@ View the repository at [https://github.com/dalazaro/project-0](https://github.co
 
 ## Code I'm Proud Of
 
-<!-- ```javascript
-  function allTheCatz(inputCatz) {
-    Catz.create(inputCatz);
-  };
+```javascript
+    $(document).on("keydown", function player1_keydown(event) {
+
+      qKeycode = event.keyCode;
+
+      //every time player1 presses the Q key (keyCode 81), the red "car" moves 1 column to the right
+      if (qKeycode === 81 && inProgress) {
+
+        player1_turn += 1;
+
+        if (player1_turn === 2) {
+          $("#box101").css("background-color", "#202020");
+          $("#box102").css("background-color", "red");
+        } else if (player1_turn === 3) {
+          $("#box102").css("background-color", "#202020");
+          $("#box103").css("background-color", "red");
+        } else if (player1_turn === 4) {
+          $("#box103").css("background-color", "#202020");
+          $("#box104").css("background-color", "red");
+        } else if (player1_turn === 5) {
+          $("#box104").css("background-color", "#202020");
+          $("#box105").css("background-color", "red");
+        } else if (player1_turn === 6) {
+          $("#box105").css("background-color", "#202020");
+          $("#box106").css("background-color", "red");
+        } else if (player1_turn === 7) {
+          $("#box106").css("background-color", "#202020");
+          $("#box107").css("background-color", "red");
+        } else if (player1_turn === 8) {
+          $("#box107").css("background-color", "#202020");
+          $("#box108").css("background-color", "red");
+        } else if (player1_turn === 9) {
+          $("#box108").css("background-color", "#202020");
+          $("#box109").css("background-color", "red");
+        } else if (player1_turn === 10) {
+          $("#box109").css("background-color", "#202020");
+          $("#box110").css("background-color", "red");
+        } else if (player1_turn === 11) {
+          $("#box110").css("background-color", "#202020");
+          $("#box111").css("background-color", "red");
+        } else if (player1_turn === 12) {
+          $("#box111").css("background-color", "#202020");
+          $("#box112").css("background-color", "red");
+          player1_alert();
+        };
+
+      };
+
+    });
 ```
 
-I'm proud of this code because it required me to trace complex data from the client-side all the way back to the database. I also found and used the `.create` method. I hadn't seen it before, but once I figured it out it worked better for me than ____ because ____ .... -->
+I'm proud of this code because it required me to combine several concepts I researched in order to make my game operate. Using the `keydown` and `.css` methods, as well as the `event.keyCode` property, I was able to assign specific keys that make each of my cars move across the screen.
 
-### Screen Shots
+<!-- ### Screen Shots -->
 
 <!-- Take screen shots using `control` `command` `shift` `4`. The image will be on your clipboard and you can paste it where you like with `command` `v`. If you paste it anywhere within a github text editing window, it will give you a markdown version. -->
 

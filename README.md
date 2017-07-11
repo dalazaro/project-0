@@ -75,10 +75,13 @@ View the repository at [https://github.com/dalazaro/project-0](https://github.co
 
 I'm proud of this code because it required me to combine several concepts I researched in order to make my game operate. Using the `keydown` and `.css` methods, as well as the `event.keyCode` property, I was able to assign specific keys that make each of my cars move across the screen.
 
-<!-- ### Screen Shots -->
+## Screen Shots
 
 <!-- Take screen shots using `control` `command` `shift` `4`. The image will be on your clipboard and you can paste it where you like with `command` `v`. If you paste it anywhere within a github text editing window, it will give you a markdown version. -->
 
+## Conceptualizing the Game
+
+View the user stories and game conceptualization at [https://github.com/dalazaro/oop-game-training](https://github.com/dalazaro/oop-game-training).
 
 <!-- **Read this entire document before writing a line of code.**
 

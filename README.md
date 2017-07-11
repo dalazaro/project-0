@@ -4,8 +4,8 @@
 
 # Project 0: Boxcar Drag Race - [https://dalazaro.github.io/project-0/](https://dalazaro.github.io/project-0/)
 
-## Programmed by Daryl Jason Lazaro
-### (WDI 39, San Francisco)
+**Programmed by Daryl Jason Lazaro**
+**(WDI 39, San Francisco)**
 
 Included:
 + All source files (.html, .css, .js)

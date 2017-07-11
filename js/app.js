@@ -11,18 +11,15 @@ var qKeycode;
 var player2_turn = 1;
 var pKeycode;
 
+//functions to end the race
 function player1_alert() {
   inProgress = false;
-  // setTimeout(function() {
   $('.winnerAlert').append(`<h1>PLAYER 1 WINS!</h1>`);
-  // }, 5);
 };
 
 function player2_alert() {
   inProgress = false;
-  // setTimeout(function() {
   $('.winnerAlert').append(`<h1>PLAYER 2 WINS!</h1>`);
-  // }, 5);
 };
 
 $(document).ready(function() {
@@ -35,7 +32,7 @@ $(document).ready(function() {
 
     qKeycode = event.keyCode;
 
-    //every time player1 presses the Q key (keyCode 81), the red "car" moves 1 column to the right
+    //every time player1 taps the Q key (keyCode 81) while the game is in progress, the red "car" moves 1 column to the right
     if (qKeycode === 81 && inProgress) {
 
       player1_turn += 1;
@@ -86,7 +83,7 @@ $(document).ready(function() {
 
     pKeycode = event.keyCode;
 
-    //every time player2 presses the P key (keyCode 80), the blue "car" moves 1 column to the right
+    //every time player2 taps the P key (keyCode 80) while the game is in progress, the blue "car" moves 1 column to the right
     if (pKeycode === 80 && inProgress) {
 
       player2_turn += 1;
@@ -131,15 +128,16 @@ $(document).ready(function() {
 
   });
 
+  //the page will reload when the race is completed and a user hits the Enter button
   $(document).on("keydown", function reset(event) {
 
     pKeycode = event.keyCode;
 
+  //the page will not reload while a race is in progress
     if (qKeycode === 13 && inProgress === false) {
       location.reload()
     };
 
   });
-
 
 });

@@ -27,16 +27,13 @@ function player2_alert() {
 
 $(document).ready(function() {
 
-  //gameplay functions
-  if (inProgress) {
-
     // function that runs player 1's "car"
     $(document).on("keydown", function player1_keydown(event) {
 
       qKeycode = event.keyCode;
 
       //every time player1 presses the Q key (keyCode 81), the red "car" moves 1 column to the right
-      if (qKeycode === 81) {
+      if (qKeycode === 81 && inProgress) {
 
         player1_turn += 1;
 
@@ -87,7 +84,7 @@ $(document).ready(function() {
       pKeycode = event.keyCode;
 
       //every time player2 presses the P key (keyCode 80), the blue "car" moves 1 column to the right
-      if (pKeycode === 80) {
+      if (pKeycode === 80 && inProgress) {
 
         player2_turn += 1;
 
@@ -130,8 +127,6 @@ $(document).ready(function() {
       };
 
     });
-
-  };
 
   $('#reset').click(function() {
     location.reload();

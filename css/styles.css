@@ -26,6 +26,10 @@ div {
   border-bottom: 2px solid black;
 }
 
+#player2_text{
+  margin-top: 5px;
+}
+
 #box101 {
   background-color: red;
   border-right: 4px solid black;

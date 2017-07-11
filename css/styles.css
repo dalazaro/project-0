@@ -1,0 +1,30 @@
+/** {
+  border: 1px dashed black;
+}*/
+
+section {
+  height: 120px;
+}
+
+div {
+  height: 100px;
+  margin-top: 8px;
+}
+
+.player1_lane {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.player2_lane {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#box101 {
+  background-color: red;
+}
+
+#box201 {
+  background-color: blue;
+}

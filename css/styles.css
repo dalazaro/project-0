@@ -2,7 +2,7 @@
   border: 1px dashed black;
 }*/
 
-h1{
+h1 {
   text-align: center;
   padding-bottom: 50px;
 }
@@ -28,10 +28,22 @@ div {
 
 #box101 {
   background-color: red;
+  border-right: 4px solid black;
 }
 
 #box201 {
   background-color: blue;
+  border-right: 4px solid black;
+}
+
+#box112 {
+  border-left: 2px dashed black;
+  text-align: center;
+}
+
+#box212 {
+  border-left: 2px dashed black;
+  text-align: center;
 }
 
 #reset {

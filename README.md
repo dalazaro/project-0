@@ -6,11 +6,6 @@
 
 **Programmed by Daryl Jason Lazaro (WDI 39, San Francisco)**
 
-## Included:
-
-<li> All source files (.html, .css, .js) </li>
-<li> this README </li>
-
 *This repository contains the working file for my Project 0 game, a boxcar drag race. Gameplay is optimized for Google Chrome on a desktop or laptop computer. The objective of the game is to control one of the two cars, and race your opponent to the finish line!*
 
 View the game at [https://dalazaro.github.io/project-0/](https://dalazaro.github.io/project-0/)!

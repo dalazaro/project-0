@@ -10,6 +10,11 @@ body {
   font-size: 16px;
 }
 
+img {
+  height: 100%;
+  width: auto;
+}
+
 header {
   margin-top: 10px;
 }
@@ -25,7 +30,6 @@ h1 {
 .winnerAlert {
   text-align: center;
   margin: 0;
-  text-decoration: underline;
 }
 
 section {
@@ -49,8 +53,21 @@ div {
   border-bottom: 4px solid white;
 }
 
+#player1_win {
+  color: #FF293B;
+}
+
+#player2_win {
+  color: #1670BD;
+}
+
+#player1_text {
+  color: #FF293B;
+}
+
 #player2_text {
   margin-top: 10px;
+  color: #1670BD;
 }
 
 #box101 {

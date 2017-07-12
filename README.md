@@ -28,6 +28,10 @@ View the repository at [https://github.com/dalazaro/project-0](https://github.co
 
 ## Code I'm Proud Of
 
+I'm really proud of this entire project, because it's the first assignment I've completed where I did not have to look at a solution! I wrote everything from scratch, and my only troubleshooting and how-to references were online resources (MDN, w3, JQuery documentation) and help from people in the cohort!
+
+Here's one block of code I'm particularly proud of:
+
 ```javascript
 $(document).on("keydown", function player1_keydown(event) {
 

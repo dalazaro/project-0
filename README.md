@@ -94,4 +94,8 @@ I'm proud of this code because it required me to combine several concepts I rese
 
 ## Conceptualizing the Game
 
+<img src="imgs/wireframe01.jpg">
+
+<img src="imgs/wireframe02.jpg">
+
 View the user stories and game conceptualization at [https://github.com/dalazaro/oop-game-training](https://github.com/dalazaro/oop-game-training).
